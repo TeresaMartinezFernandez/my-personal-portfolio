@@ -1,0 +1,46 @@
+@import "../stylesheet/core/variables.scss";
+
+.aboutme__container {
+  margin: 1.5rem;
+}
+
+.aboutme__img {
+  border: 5px solid $colorIcon;
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+fieldset {
+  border: 1px solid transparent;
+  border-top-color: $colorTextGrey;
+  box-sizing: border-box;
+  padding-left: 60px;
+  //   margin: 20px;
+  //   width: inherit;
+}
+
+legend {
+  font-family: $fontAboutme;
+  font-size: 20px;
+  margin: auto; /* to center */
+  padding: 0 4px;
+}
+
+.aboutme__title {
+  font-family: $fontAboutme;
+}
+
+.aboutme__text {
+  font-family: $fontAboutme;
+}
+
+.aboutme__btn {
+  margin: 3rem;
+}
+
+.aboutme__btn--text {
+  font-family: $fontText;
+  color: $colorTextBlack;
+}

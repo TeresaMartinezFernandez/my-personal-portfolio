@@ -1,0 +1,32 @@
+@import "../stylesheet/core/variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    padding: 1rem;
+  }
+
+  &__logo--img {
+    width: 5rem;
+  }
+
+  &__nav {
+    width: 20rem;
+  }
+
+  &__nav--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__nav--link {
+    padding: 1rem;
+    font-family: $fontText;
+    color: $colorTextBlack;
+  }
+}

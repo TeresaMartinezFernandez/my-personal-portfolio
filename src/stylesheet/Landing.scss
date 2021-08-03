@@ -1,0 +1,35 @@
+.Landing__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Landing__title {
+  position: relative;
+  float: left;
+  background: white;
+  color: black;
+}
+
+.Landing__title span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 1px solid #000;
+  animation: escribir 5s steps(37) 1 alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.Landing__img {
+  width: 25rem;
+}
