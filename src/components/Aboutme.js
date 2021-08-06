@@ -2,10 +2,13 @@ import profileImg from "../images/foto_perfil_bn.jpg";
 import "../stylesheet/Aboutme.scss";
 import cv_1 from "../sources/CV_spanish.pdf";
 import cv_2 from "../sources/CV_english.pdf";
+import { Link } from "react-router-dom";
+import Header from "./Header";
 
 const AboutMe = () => {
   return (
     <>
+      <Header />
       <div className="aboutme__container">
         <fieldset>
           <legend>Sobre mi...</legend>
@@ -29,6 +32,8 @@ const AboutMe = () => {
           Me considero una persona comprometida y metódica, con una actitud
           inconformista, curiosa, resolutiva y entusiasta.
         </p>
+        <br></br>
+        <p className="aboutme__text">Aquí puedes descargar mi CV.</p>
 
         <button className="aboutme__btn">
           <a

@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  width: 100vw;
 }
 
 .Landing__title {
@@ -10,6 +12,11 @@
   float: left;
   background: white;
   color: black;
+  padding: 1rem;
+  @media all and (min-width: 768px) {
+    padding: 2rem;
+    font-size: 3rem;
+  }
 }
 
 .Landing__title span {
@@ -32,4 +39,8 @@
 
 .Landing__img {
   width: 25rem;
+
+  @media all and (min-width: 768px) {
+    width: 35rem;
+  }
 }

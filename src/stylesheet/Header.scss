@@ -5,17 +5,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
+  height: 8rem;
+  width: 100vw;
 
   &__logo {
-    padding: 1rem;
+    // padding-left: 1rem;
   }
 
   &__logo--img {
-    width: 5rem;
+    width: 4rem;
   }
 
   &__nav {
-    width: 20rem;
+    // width: 20rem;
   }
 
   &__nav--list {

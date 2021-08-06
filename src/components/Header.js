@@ -1,42 +1,30 @@
 import "../stylesheet/Header.scss";
+import { Link } from "react-router-dom";
 import logo_tm from "../images/logo_tm.png";
 
 const Header = () => {
   return (
     <>
       <div className="header">
-        <div className="header__logo">
-          <img
-            className="header__logo--img"
-            src={logo_tm}
-            alt="personal_icon_image"
-          ></img>
-        </div>
+        <Link to="/">
+          <div className="header__logo">
+            <img
+              className="header__logo--img"
+              src={logo_tm}
+              alt="go_back_to_home"
+            ></img>
+          </div>
+        </Link>
         <nav className="header__nav">
           <ul className="header__nav--list">
-            <li className="header__nav--item">
-              <a
-                className="header__nav--link"
-                href="https://twitter.com/teresamarfer"
-              >
-                Sobre mi
-              </a>
+            <li className="header__nav--link">
+              <Link to="/aboutme">Sobre mi</Link>
             </li>
-            <li className="header__nav--item">
-              <a
-                className="header__nav--link"
-                href="https://twitter.com/teresamarfer"
-              >
-                Proyectos
-              </a>
+            <li className="header__nav--link">
+              <Link to="/projects">Proyectos</Link>
             </li>
-            <li className="header__nav--item">
-              <a
-                className="header__nav--link"
-                href="https://twitter.com/teresamarfer"
-              >
-                Contacto
-              </a>
+            <li className="header__nav--link">
+              <Link to="/contact">Contacto</Link>
             </li>
           </ul>
         </nav>

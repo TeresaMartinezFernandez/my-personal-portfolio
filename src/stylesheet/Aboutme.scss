@@ -2,6 +2,9 @@
 
 .aboutme__container {
   margin: 1.5rem;
+  height: 100%;
+  width: 100vw;
+  padding: 1rem;
 }
 
 .aboutme__img {
@@ -17,8 +20,6 @@ fieldset {
   border-top-color: $colorTextGrey;
   box-sizing: border-box;
   padding-left: 60px;
-  //   margin: 20px;
-  //   width: inherit;
 }
 
 legend {
@@ -34,10 +35,13 @@ legend {
 
 .aboutme__text {
   font-family: $fontAboutme;
+  text-align: justify;
 }
 
 .aboutme__btn {
   margin: 3rem;
+  border-radius: 20px;
+  width: 4rem;
 }
 
 .aboutme__btn--text {

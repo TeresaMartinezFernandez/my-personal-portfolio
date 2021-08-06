@@ -1,0 +1,56 @@
+@import "../stylesheet/core/variables.scss";
+
+.projects__container {
+  height: 100%;
+  width: 100vw;
+
+  &--title {
+    color: $colorTextGrey;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}
+
+.projects__list {
+  // width: 100vw;
+  display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  // place-content: center;
+  row-gap: 25px;
+  justify-items: center;
+  align-items: center;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media all and (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $colorPathsection;
+  border-radius: 20px;
+  width: 250px;
+
+  &--img {
+    // border-radius: 20px;
+    width: 250px;
+  }
+  &--name {
+    color: $colorTextGrey;
+    font-family: $fontText;
+  }
+  &--text {
+    font-family: $fontText;
+  }
+}
+
+.fa-desktop {
+  color: $colorPathIcons;
+}
