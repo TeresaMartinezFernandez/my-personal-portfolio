@@ -22,9 +22,7 @@ const Projects = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa fa-desktop" aria-hidden="true">
-              web live
-            </i>
+            <i class="fas fa-laptop">web live</i>
           </a>
           <a
             href={item.github}
@@ -32,9 +30,7 @@ const Projects = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa fa-code" aria-hidden="true">
-              code
-            </i>
+            <i class="fas fa-code-branch">code</i>
           </a>
         </article>
       </li>

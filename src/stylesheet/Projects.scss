@@ -49,8 +49,16 @@
   &--text {
     font-family: $fontText;
   }
+  &--link {
+    padding: 0.5rem;
+  }
 }
 
-.fa-desktop {
-  color: $colorPathIcons;
+.fas {
+  color: $colorTextGrey;
+  transition: color ease 1s;
+  &:hover {
+    color: $colorPathIcons;
+    text-decoration: underline;
+  }
 }

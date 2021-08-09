@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100%;
   width: 100vw;
 }
 
 .Landing__title {
   position: relative;
   float: left;
+  margin-top: 5rem;
   background: white;
   color: black;
   padding: 1rem;
@@ -19,21 +20,23 @@
   }
 }
 
-.Landing__title span {
-  position: absolute;
-  right: 0;
-  width: 0;
-  background: white;
-  border-left: 1px solid #000;
-  animation: escribir 5s steps(37) 1 alternate;
-}
-
-@keyframes escribir {
-  from {
-    width: 100%;
-  }
-  to {
+@media all and (min-width: 1200px) {
+  .Landing__title span {
+    position: absolute;
+    right: 0;
     width: 0;
+    background: white;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(37) 1 alternate;
+  }
+
+  @keyframes escribir {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
   }
 }
 
