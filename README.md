@@ -24,5 +24,5 @@ $ npm install
 
 ## Created by
 
-- [**Teresa Martinez Fernandez**](https://github.com/teresamarfer)
+- [**Teresa Martinez Fernandez**](https://github.com/TeresaMartinezFernandez)
 - [LinkedIn](https://www.linkedin.com/in/teresamarfer/)
