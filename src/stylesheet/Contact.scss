@@ -5,27 +5,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  // overflow-x: hidden;
+  width: 100%;
   height: 100vh;
   background-image: url(../images/bg_contact.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.contact__nav--list {
-  width: 100vw;
-  height: 100%;
-  display: grid;
-  row-gap: 30px;
-  justify-items: center;
-  align-items: center;
+  &__nav--list {
+    // width: 100%;
+    // height: 100%;
+    display: grid;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
 
-  @media all and (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media all and (min-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr);
+    @media all and (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 100px;
+    }
+    @media all and (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    // &--item {
+    //   width: 200px;
+    // }
   }
 }
 

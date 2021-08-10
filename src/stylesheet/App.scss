@@ -1,6 +1,7 @@
 @import "../stylesheet/core/reset.scss";
 @import "../stylesheet/core/variables.scss";
 
-// .App {
-//   text-align: center;
-// }
+.App {
+  width: 100vw;
+  overflow-x: hidden;
+}

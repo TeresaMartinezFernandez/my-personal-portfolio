@@ -2,22 +2,24 @@
 
 .projects__container {
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &--title {
     color: $colorTextGrey;
     text-align: center;
     font-size: 1.5rem;
-    margin: 1rem;
+    padding: 1rem;
   }
 }
 
 .projects__list {
-  // width: 100vw;
   display: grid;
-  // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  // place-content: center;
   row-gap: 25px;
+  column-gap: 25px;
   justify-items: center;
   align-items: center;
 
@@ -39,7 +41,6 @@
   width: 250px;
 
   &--img {
-    // border-radius: 20px;
     width: 250px;
   }
   &--name {
