@@ -20,7 +20,7 @@ const Contact = () => {
               </a>
             </li>
             <li className="contact__nav--item">
-              <a href="https://github.com/teresamarfer">
+              <a href="https://github.com/TeresaMartinezFernandez">
                 <i class="fab fa-github-alt fa-3x"></i>
               </a>
             </li>
